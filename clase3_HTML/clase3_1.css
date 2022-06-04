@@ -1,0 +1,16 @@
+.box-default{
+    background: tomato;
+    height: 150px;
+    width: 150px;
+}
+
+.box-wrapper{
+    background: tomato;
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    box-sizing: content-box;
+    border: 5px solid blue;
+    margin: 10px;
+}
+

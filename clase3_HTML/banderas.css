@@ -1,0 +1,132 @@
+.francia{
+    height: 350px;
+    width: 600px;
+    border: 15px solid gold;
+    margin: 10px;
+    /* padding: 15px; */
+    display: flex;
+    flex-direction: row;
+}
+
+.francia_azul{
+    background-color: blue;
+}
+
+.francia_blanco{
+    background-color: white;
+}
+
+.francia_rojo{
+    background-color: red;
+}
+
+.bloque{
+    flex-basis: 100%;
+    flex-grow: 1;
+}
+
+.suecia{
+    height: 350px;
+    width: 600px;
+    border: 15px solid gold;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    /* flex-wrap: wrap; */
+    /* background-color: yellow; */
+}
+
+.suecia-1{
+    background-color: blue;
+    width: 15%;
+    height: 15%;
+}
+
+.suecia-2{
+    background-color: yellow;
+    width: 20%;
+    height: 15%;
+}
+
+.suecia-3{
+    background-color: blue;
+    width: 75%;
+}
+
+
+
+/* .suecia-row-1{
+    height: 35%;
+    width: 100%;
+
+} */
+
+.mexico{
+    height: 350px;
+    width: 600px;
+    border: 15px solid gold;
+    margin: 10px;
+    /* padding: 15px; */
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.mexico_verde{
+    background-color: green;
+}
+
+.mexico_blanco{
+    background-color: white;
+    flex-direction: column;
+}
+
+.mexico_rojo{
+    background-color: red;
+}
+
+.logo_mexico{
+    width: 200px;
+    align-items: center;
+    margin-top: 33.33%;
+}
+
+.flex-container{
+    border: 10px solid gold;
+    height: 350px;
+    width: 600px;
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: flex-start; */
+    flex-wrap: wrap;
+}
+
+.contenedor1{
+    width: 30%;
+    height: 40%;
+    background-color: blue;
+
+}
+
+.contenedor2{
+    width: 10%;
+    height: 40%;
+    background-color: yellow;
+
+}
+
+.contenedor3{
+    width: 60%;
+    height: 40%;
+    background-color: blue;
+
+}
+
+.contenedor4{
+    width: 100%;
+    height: 20%;
+    background-color: yellow;
+}

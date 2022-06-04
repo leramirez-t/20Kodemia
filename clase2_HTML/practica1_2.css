@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+header{
+    background-color: chartreuse;
+    font-family: 'Courier New', Courier, monospace
+}
+
+main{
+    background-color: dodgerblue;
+    width: 70%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.submenu-item{
+    text-decoration: none;
+}
+
+.card{
+    background-color: palegoldenrod;
+    width: 45%;
+    height: 250px;
+    border-radius: 15px;
+    padding: 15px;
+    padding-top: 40px;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+aside{
+    width: 20%;
+    background-color: lightslategray;
+    display: inline-block;
+    height: 700px;
+    vertical-align: top;
+    margin-left: 5%;
+}
+
+div.cards-space{
+    padding: 30px;
+}
+
+aside  ul > li{
+    text-decoration: none;
+}
