@@ -1,0 +1,46 @@
+.recuadros{
+    width: 150px;
+    /* height: 450px; */
+}
+
+.recuadro1{
+    background-color: orange;
+}
+
+.recuadro2{
+    background-color: green;
+}
+
+.recuadro3{
+    background-color: purple;
+}
+
+.recuadros_desktop{
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (min-width: 992px ) {
+    .recuadros{
+        height: 450px;
+    }
+}
+
+@media (min-width: 768px) and (max-width:991px ) {
+    .recuadros{
+        height: 150px;
+    }
+}
+
+@media (max-width: 767px) {
+    .recuadros{
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+    }
+    .recuadros_desktop{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
