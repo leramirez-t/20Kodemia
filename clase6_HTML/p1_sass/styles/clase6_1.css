@@ -1,0 +1,68 @@
+.btn {
+  padding: .5rem 1rem;
+  min-width: 200px;
+  border: 2px solid #377;
+  background-color: peru;
+}
+
+.card {
+  width: 100px;
+  height: 100px;
+  padding: 1rem;
+  margin: 8px;
+  background: #377;
+}
+
+.card1 {
+  width: 100px;
+  height: 100px;
+  padding: 1rem;
+  margin: 8px;
+  background: #377;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  opacity: 1;
+}
+
+.container {
+  background: silver;
+  height: 800px;
+}
+
+.container ul li {
+  padding: .5rem;
+}
+
+.container ul li.primary {
+  background: lightgreen;
+}
+
+.container ul li.secondary {
+  background: tomato;
+}
+
+.container ul + a {
+  padding: .5rem 1rem;
+  min-width: 200px;
+  border: 2px solid #377;
+  padding: 1rem;
+  background: aqua;
+}
+
+.container ul + a:hover {
+  background: blue;
+}
+
+.btn-primary {
+  background: peru;
+}
+
+.btn-secondary {
+  background: tomato;
+}
+
+.btn-disable {
+  background: red;
+}
+/*# sourceMappingURL=clase6_1.css.map */

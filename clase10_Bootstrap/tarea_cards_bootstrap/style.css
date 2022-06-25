@@ -1,0 +1,64 @@
+.card-car-container {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.card-car-container .card-car {
+  color: rgba(255, 255, 255, 0.75);
+  font-family: 'Lexend Deca', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.card-car-container .card-car.sedan {
+  background-color: #e38826;
+}
+
+.card-car-container .card-car.sedan .card-button {
+  color: #e38826;
+}
+
+.card-car-container .card-car.suvs {
+  background-color: #006970;
+}
+
+.card-car-container .card-car.suvs .card-button {
+  color: #006970;
+}
+
+.card-car-container .card-car.luxury {
+  background-color: #004241;
+}
+
+.card-car-container .card-car.luxury .card-button {
+  color: #004241;
+}
+
+.card-car-container .card-car.luxury .card-button:hover {
+  background-color: transparent;
+  color: white;
+}
+
+.card-car-container h2 {
+  color: #f2f2f2;
+  font-family: 'Big Shoulders Display', cursive;
+}
+
+.card-car-container .card-button {
+  background-color: #f2f2f2;
+  border-radius: 8px;
+  text-decoration: none;
+  border: 1px solid white;
+}
+/*# sourceMappingURL=style.css.map */

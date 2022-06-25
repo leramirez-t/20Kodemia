@@ -1,0 +1,16 @@
+header nav {
+  height: 60px;
+}
+
+main article {
+  min-height: 100px;
+}
+
+#seccion-principal {
+  background: peru !important;
+}
+
+footer > div {
+  height: 100px;
+}
+/*# sourceMappingURL=style.css.map */
